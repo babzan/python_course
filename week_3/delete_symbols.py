@@ -4,5 +4,5 @@
 #                               #
 #################################
 
-n = float(input())
-print(n - int(n))
+s = str(input()).replace('@', '')
+print(s)
