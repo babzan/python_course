@@ -8,3 +8,10 @@ def IsPrime(n):
         else:
             return n
     return i == n
+
+
+x = int(input())
+if IsPrime(x):
+    print('YES')
+else:
+    print('NO')
